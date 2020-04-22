@@ -1,0 +1,16 @@
+{
+  "name": "sorting-js",
+  "version": "1.0.0",
+  "description": "javascript implementation of sorting algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "sorting-js",
+    "sorting-algorithms"
+  ],
+  "author": "Akwan Maroso",
+  "license": "MIT"
+}
