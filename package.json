@@ -12,5 +12,8 @@
     "sorting-algorithms"
   ],
   "author": "Akwan Maroso",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^25.4.0"
+  }
 }
