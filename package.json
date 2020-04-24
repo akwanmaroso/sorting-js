@@ -4,7 +4,7 @@
   "description": "javascript implementation of sorting algorithms",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose"
   },
   "keywords": [
     "npm",
@@ -15,5 +15,11 @@
   "license": "MIT",
   "dependencies": {
     "jest": "^25.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0"
   }
 }
