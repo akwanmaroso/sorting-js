@@ -1,4 +1,7 @@
 module.exports.cycle_sort = arr => {
+  if (!Array.isArray(arr)) {
+    return 'Data must be array';
+  }
   let temp;
   let n = arr.length;
   for (let start = 0; start < n - 1; start++) {
@@ -38,6 +41,5 @@ module.exports.cycle_sort = arr => {
       }
     }
   }
-  console.log(arr);
   return arr;
 }
