@@ -9,7 +9,7 @@ this is simple package to implementation alogrithm sorting in javascript
 - Selection Sort(✔)
 - Merge Sort(⏳)
 - Radix Sort(⏳)
-- Shell Sort(⏳)
+- Shell Sort(✔)
 - Cycle Sort(✔)
 
 ## Author
