@@ -1,8 +1,7 @@
 module.exports.bubble_sort = (arr) => {
   let temp;
   if (!Array.isArray(arr)) {
-    console.log('Data must be array');
-    return;
+    return 'Data must be array';
   }
   let len = arr.length - 1
   for (let i = 0; i < len; i++) {
