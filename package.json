@@ -4,7 +4,9 @@
   "description": "javascript implementation of sorting algorithms",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "dev": "webpack-dev-server --config webpack.config.js",
+    "build": "webpack --config webpack.config.js"
   },
   "keywords": [
     "npm",
@@ -21,6 +23,7 @@
     "@babel/preset-env": "^7.9.5",
     "babel-loader": "^8.1.0",
     "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
   }
 }
