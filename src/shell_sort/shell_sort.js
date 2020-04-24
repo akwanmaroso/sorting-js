@@ -16,6 +16,5 @@ module.exports.shell_sort = arr => {
     }
     slot = Math.floor(slot / 2)
   }
-  console.log(arr);
   return arr;
 }
