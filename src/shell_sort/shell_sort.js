@@ -1,6 +1,6 @@
 module.exports.shell_sort = arr => {
   if (!Array.isArray(arr)) {
-    return 'Data must be array';
+    throw new Error('Data must be array');
   }
   let n = arr.length;
   let slot = Math.floor(n / 2);

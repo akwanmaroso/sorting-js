@@ -1,6 +1,6 @@
 module.exports.cycle_sort = arr => {
   if (!Array.isArray(arr)) {
-    return 'Data must be array';
+    throw new Error('Data must be array');
   }
   let temp;
   let n = arr.length;
