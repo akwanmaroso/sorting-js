@@ -7,10 +7,10 @@ this is simple package to implementation alogrithm sorting in javascript
 - Bubble Sort(✔)
 - Insertion Sort(✔)
 - Selection Sort(✔)
-- Merge Sort(⏳)
+- Merge Sort()
 - Radix Sort(⏳)
 - Shell Sort(⏳)
-- Cycle Sort(⏳)
+- Cycle Sort(✔)
 
 ## Author
 
