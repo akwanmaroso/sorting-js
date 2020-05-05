@@ -16,7 +16,7 @@
   "author": "Akwan Maroso",
   "license": "MIT",
   "dependencies": {
-    "jest": "^25.5.2"
+    "jest": "^26.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
