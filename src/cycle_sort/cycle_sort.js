@@ -1,4 +1,4 @@
-module.exports.cycle_sort = arr => {
+const cycle_sort = arr => {
   if (!Array.isArray(arr)) {
     throw new Error('Data must be array');
   }
@@ -43,3 +43,5 @@ module.exports.cycle_sort = arr => {
   }
   return arr;
 }
+
+export default cycle_sort;

@@ -1,4 +1,4 @@
-module.exports.insertion_sort = (arr) => {
+const insertion_sort = (arr) => {
   if (!Array.isArray(arr)) {
     throw new Error('Data must be array');
   }
@@ -15,3 +15,5 @@ module.exports.insertion_sort = (arr) => {
   }
   return arr;
 }
+
+export default insertion_sort;

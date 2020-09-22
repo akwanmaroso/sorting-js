@@ -1,4 +1,4 @@
-const { cycle_sort } = require('../cycle_sort');
+import cycle_sort from "./cycle_sort";
 
 test('bubble sort test sorting', () => {
   const actual = cycle_sort([10, 9, 8, 7, 6]);

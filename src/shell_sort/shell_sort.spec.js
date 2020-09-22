@@ -1,4 +1,4 @@
-const { shell_sort } = require('../shell_sort');
+import shell_sort from "./shell_sort";
 
 test('bubble sort test sorting', () => {
   const actual = shell_sort([10, 9, 8, 7, 6]);

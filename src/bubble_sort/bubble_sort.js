@@ -1,4 +1,4 @@
-module.exports.bubble_sort = (arr) => {
+const bubble_sort = (arr) => {
   let temp;
   if (!Array.isArray(arr)) {
     throw new Error('Data must be array');
@@ -15,3 +15,5 @@ module.exports.bubble_sort = (arr) => {
   }
   return arr;
 }
+
+export default bubble_sort;

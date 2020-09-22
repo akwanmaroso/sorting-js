@@ -1,10 +1,10 @@
-const bubble_sort = require('./bubble_sort');
-const cycle_sort = require('./cycle_sort');
-const insertion_sort = require('./insertion_sort');
-const selection_sort = require('./selection_sort');
-const shell_sort = require('./shell_sort');
+import bubble_sort from "./bubble_sort";
+import cycle_sort from "./cycle_sort";
+import insertion_sort from "./insertion_sort";
+import selection_sort from "./selection_sort";
+import shell_sort from "./shell_sort";
 
-module.exports = {
+export {
   bubble_sort,
   cycle_sort,
   insertion_sort,

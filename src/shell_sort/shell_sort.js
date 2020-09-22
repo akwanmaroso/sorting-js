@@ -1,4 +1,4 @@
-module.exports.shell_sort = arr => {
+const shell_sort = arr => {
   if (!Array.isArray(arr)) {
     throw new Error('Data must be array');
   }
@@ -18,3 +18,5 @@ module.exports.shell_sort = arr => {
   }
   return arr;
 }
+
+export default shell_sort;

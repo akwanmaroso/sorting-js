@@ -1,4 +1,4 @@
-module.exports.selection_sort = arr => {
+const selection_sort = arr => {
   if (!Array.isArray(arr)) {
     throw new Error('Data must be array');
   }
@@ -17,3 +17,5 @@ module.exports.selection_sort = arr => {
   }
   return arr;
 }
+
+export default selection_sort;
