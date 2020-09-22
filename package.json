@@ -2,7 +2,7 @@
   "name": "sorting-js",
   "version": "1.0.0",
   "description": "javascript implementation of sorting algorithms",
-  "main": "src/app.js",
+  "main": "dist/app.js",
   "scripts": {
     "test": "jest --coverage",
     "build:node": "babel src --out-dir dist --ignore src/**/*.test.js --copy-files",
