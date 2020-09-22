@@ -5,9 +5,8 @@
   "main": "src/app.js",
   "scripts": {
     "test": "jest --coverage",
-    "dev": "webpack-dev-server --config webpack.config.js",
-    "build": "webpack --config webpack.config.js",
-    "build:babel": "rm dist -rf && babel src --out-dir dist --ignore src/**/*.test.js --copy-files",
+    "build:node": "babel src --out-dir dist --ignore src/**/*.test.js --copy-files",
+    "build:browser": "rollup -c",
     "report-cov": "cat ./converage/lcov.info | codecov"
   },
   "keywords": [
@@ -21,10 +20,15 @@
     "jest": "^26.3.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.11.6",
     "@babel/core": "^7.10.1",
     "@babel/preset-env": "^7.10.4",
+    "@rollup/plugin-babel": "^5.2.1",
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-json": "^4.1.0",
     "babel-loader": "^8.1.0",
     "codecov": "^3.7.2",
+    "rollup": "^2.28.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
