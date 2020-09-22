@@ -16,5 +16,7 @@ jobs:
         run: |
           npm install
           npm test
+          npm run report-cov
         env:
           CI: true
+          CODECOV_TOKEN: 37a01cb7-e083-46ca-b251-94a35a4057c0
