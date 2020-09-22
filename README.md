@@ -1,4 +1,4 @@
-![Node.js CI](https://github.com/akwanmaroso/sorting-js/workflows/Node.js%20CI/badge.svg?branch=master)
+![Node.js CI](https://github.com/akwanmaroso/sorting-js/workflows/Node.js%20CI/badge.svg?branch=master) ![Codecov](https://img.shields.io/codecov/c/github/akwanmaroso/sorting-js?style=flat-square)
 
 ## Sorting Javascript
 
