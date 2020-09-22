@@ -7,6 +7,7 @@
     "test": "jest --coverage",
     "build:node": "babel src --out-dir dist --ignore src/**/*.test.js --copy-files",
     "build:browser": "rollup -c",
+    "build": "npm run build:node && npm run build:browser",
     "report-cov": "cat ./converage/lcov.info | codecov"
   },
   "keywords": [
