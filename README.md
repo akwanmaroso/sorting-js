@@ -8,13 +8,13 @@ this is simple package to implementation alogrithm sorting in javascript
 
 Use NPM
 
-```
+```shell
     npm install sorting-js
 ```
 
 Use CDN
 
-```
+```html
     <script src="https://unpkg.com/sorting-js@1.0.1/dist/bundle.js" type="module"></script>
 ```
 
@@ -22,7 +22,7 @@ Use CDN
 
 Node.JS
 
-```
+```js
 const {bubble_sort} = require("sorting-js");
 
 const res = bubble_sort([1,2,1,2,5,6,5,3,5,57,86])
@@ -32,7 +32,7 @@ console.log(res);
 
 Browser
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
