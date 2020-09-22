@@ -4,6 +4,14 @@
 
 this is simple package to implementation alogrithm sorting in javascript
 
+## How To Use ?
+
+Use NPM
+
+```
+    npm install sorting-js
+```
+
 ## Algorithm Sorting List
 
 - Bubble Sort(✔)
