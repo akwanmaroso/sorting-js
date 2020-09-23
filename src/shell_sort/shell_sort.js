@@ -1,4 +1,4 @@
-const shell_sort = arr => {
+const shell_sort = (arr) => {
   if (!Array.isArray(arr)) {
     throw new Error('Data must be array');
   }
@@ -14,9 +14,9 @@ const shell_sort = arr => {
       }
       arr[j] = temp;
     }
-    slot = Math.floor(slot / 2)
+    slot = Math.floor(slot / 2);
   }
   return arr;
-}
+};
 
 export default shell_sort;
