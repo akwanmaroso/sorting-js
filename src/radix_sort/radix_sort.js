@@ -1,6 +1,6 @@
 const radix_sort = (arr) => {
   if (!Array.isArray(arr)) {
-    throw Error("Data must be array")
+    throw Error('Data must be array');
   }
 
   const maxNum = Math.max(...arr) * 10;
@@ -14,6 +14,6 @@ const radix_sort = (arr) => {
     divisor *= 10;
   }
   return arr;
-}
+};
 
 export default radix_sort;

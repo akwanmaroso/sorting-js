@@ -1,4 +1,4 @@
-const cycle_sort = arr => {
+const cycle_sort = (arr) => {
   if (!Array.isArray(arr)) {
     throw new Error('Data must be array');
   }
@@ -20,7 +20,7 @@ const cycle_sort = arr => {
       loc++;
     }
     if (loc != start) {
-      temp = arr[loc]
+      temp = arr[loc];
       arr[loc] = key;
       key = temp;
     }
@@ -35,13 +35,13 @@ const cycle_sort = arr => {
         loc++;
       }
       if (key != arr[loc]) {
-        temp = arr[loc]
+        temp = arr[loc];
         arr[loc] = key;
         key = temp;
       }
     }
   }
   return arr;
-}
+};
 
 export default cycle_sort;

@@ -14,6 +14,6 @@ const insertion_sort = (arr) => {
     arr[j + 1] = key;
   }
   return arr;
-}
+};
 
 export default insertion_sort;

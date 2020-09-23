@@ -1,4 +1,4 @@
-const selection_sort = arr => {
+const selection_sort = (arr) => {
   if (!Array.isArray(arr)) {
     throw new Error('Data must be array');
   }
@@ -8,7 +8,7 @@ const selection_sort = arr => {
     min = i;
     for (let j = i + 1; j <= n - 1; j++) {
       if (arr[j] < arr[min]) {
-        min = j
+        min = j;
       }
     }
     temp = arr[min];
@@ -16,6 +16,6 @@ const selection_sort = arr => {
     arr[i] = temp;
   }
   return arr;
-}
+};
 
 export default selection_sort;
