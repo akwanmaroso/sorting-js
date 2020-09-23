@@ -66,10 +66,10 @@ Browser
 - Bubble Sort(✔)
 - Insertion Sort(✔)
 - Selection Sort(✔)
-- Merge Sort(⏳)
-- Radix Sort(⏳)
+- Merge Sort(✔)
 - Shell Sort(✔)
 - Cycle Sort(✔)
+- Radix Sort(⏳)
 
 ## Author
 
