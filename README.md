@@ -15,7 +15,10 @@ Use NPM
 Use CDN
 
 ```html
-    <script src="https://unpkg.com/sorting-js@1.0.1/dist/bundle.js" type="module"></script>
+<script
+  src="https://unpkg.com/sorting-js@1.0.1/dist/bundle.js"
+  type="module"
+></script>
 ```
 
 ## How To Use
@@ -25,7 +28,7 @@ Node.JS
 ```js
 const {bubble_sort} = require("sorting-js");
 
-const res = bubble_sort([1,2,1,2,5,6,5,3,5,57,86])
+const res = bubble_sort([1, 2, 1, 2, 5, 6, 5, 3, 5, 57, 86]);
 
 console.log(res);
 ```
@@ -46,7 +49,7 @@ Browser
       type="module"
     ></script>
     <script type="module">
-      import { insertion_sort } from "./bundle.js";
+      import {insertion_sort} from "./bundle.js";
       const res = insertion_sort([2, 3, 4, 5, 6, 4, 3, 4]);
       console.log(res);
     </script>
@@ -69,7 +72,7 @@ Browser
 - Merge Sort(✔)
 - Shell Sort(✔)
 - Cycle Sort(✔)
-- Radix Sort(⏳)
+- Radix Sort(✔)
 
 ## Author
 
